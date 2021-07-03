@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EditorComponent implements OnInit {
 
-  htmlContent = 'Hi, I'm Shreya!';
+  htmlContent = "Hi, I'm Shreya!";
   finalText = '';
 
   tools: object = {
