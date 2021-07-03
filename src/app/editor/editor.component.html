@@ -1,0 +1,9 @@
+<div class="container">
+  <ejs-richtexteditor [(ngModel)]="htmlContent" name="Rte" id='rteTool' [toolbarSettings]='tools' [quickToolbarSettings]='quickToolbarSettings'></ejs-richtexteditor>
+  <br>
+  <button class="button" (click)="finalText= htmlContent;">Submit</button>
+  <div style="margin-top: 60px;">
+      <h3 *ngIf="finalText">HTML Content:</h3>
+      <p>{{finalText}}  </p>
+  </div>
+</div>
