@@ -1,8 +1,12 @@
-header h3 {
+header {
   margin: 0 0 40px 0;
-  padding: 20px;
-  text-align: center;
+  padding: 5px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   background-color: rgb(181, 209, 236);
   box-shadow: 0 3px 18px 0 rgb(0 0 0 / 18%);
   transition: 0.3s;
+  h3 h4 {
+    display: inline;
+  }
 }
